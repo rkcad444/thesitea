@@ -5,7 +5,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
 # googleAnalytics                 = ""                     # https://gohugo.io/templates/internal/#google-analytics
 
 [params]
-    themeStyle                   = "auto"                  # Choose "light" or "dark" or "auto"
+    themeStyle                   = "light"                  # Choose "light" or "dark" or "auto"
     favicon                      = "/img/fav.ico"          # Path to favicon file
     showMenu                     = true                    # Show navigation menu
     showRSSButton                = false                   # Show rss button in navigation
@@ -23,18 +23,18 @@ DefaultContentLanguage           = "en"                    # Default language fo
         showLatest               = true                    # Show latest blog post summary
         showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
         allPostsArchiveFormat    = true                    # show all posts in an archive format
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
+        numberOfProjectsToShow   = 6                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeZone                 = "America/Chicago"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "en-US"                 # Language specific format to use
     [params.projects]
         useTwoColumns            = false                   # Use a layout with two columns instead of three
 
     # Share buttons on blog post pages
     [params.share]
-        twitter                  = true
-        facebook                 = true
-        pinterest                = true
+        twitter                  = false
+        facebook                 = false
+        pinterest                = false
 
     # To enable giscus, the GitHub-discussions-based comment section,
     # input the repository for the discussions below. For more details, see
@@ -66,14 +66,19 @@ DefaultContentLanguage           = "en"                    # Default language fo
 
 
 # If you don't want to use the default menu, you can define one by yourself
-# [[menu.main]]
-#     name    = "Home"
-#     url     = "/"
-#     weight  = 0
-# [[menu.main]]
-#     name    = "Blog"
-#     url     = "/blog/"
-#     weight  = 1
+[[menu.main]]
+    name    = "Home"
+    url     = "/"
+    weight  = 0
+
+[[menu.main]]
+    name    = "Projects"
+    url     = "/projects/"
+    weight  = 1    
+[[menu.main]]
+    name    = "Blog"
+    url     = "/blog/"
+    weight  = 2
 
 # We only use tag as a taxonomies
 # You can add more by yourself
@@ -95,7 +100,7 @@ DefaultContentLanguage           = "en"                    # Default language fo
     lineNumbersInTable = true
     # noClasses = true
     # For styles, see https://xyproto.github.io/splash/docs/longer/all.html
-    style = "solarized-dark"
+    style = "tango"
     tabWidth = 4
 
 [languages]
@@ -109,23 +114,4 @@ DefaultContentLanguage           = "en"                    # Default language fo
             description  = "Website Description"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-    [languages.es]
-        languageName     = "Español"
-        languageCode     = "es"
-        contentDir       = "content/es"
-        weight           = 1
-        title            = "Introducción"
-        [languages.es.params]
-            description  = "Descripcion del sitio web"
-            # footerText   = ""
-
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 2
-        title            = "Vorstellung"
-        [languages.de.params]
-            dateFormat   = "2. January 2006"
-            description  = "Beschreibung der Webseite"
-            # footerText   = ""
+    

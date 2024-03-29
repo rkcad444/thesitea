@@ -123,71 +123,28 @@ Introduction
             
             
             
-
-            
-            
-
-            
+            <a class="navbar-item" href="/projects/">
                 
-            
-
-            
+                Projects
                 
-            
-
-            
+            </a>
             
             
             
-            
-            <a class="navbar-item" href="#about">About</a>
-            
-            
-            
-            
-            
+            <a class="navbar-item" href="/blog/">
                 
+                Blog
                 
-                <a class="navbar-item" href="/#projects">Projects</a>
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/">
                 
-            
-            
-            
-            
-            
+                Home
                 
-                
-                <a class="navbar-item" href="/#blog">Blog</a>
-                
+            </a>
             
-            
-            
-            
-            
-            <a class="navbar-item" href="#lorem">Lorem Ipsum</a>
-            
-            
-            
-            
-
-            
-            
-            <a class="navbar-item" href="#contact">Contact</a>
-            
-            
-
-            
-            
-            
-            
-            <a class="navbar-item" href="http://localhost:1313/es/">Español</a>
-            
-            
-            
-            <a class="navbar-item" href="http://localhost:1313/de/">Deutsch</a>
-            
-            
-
             
             
         </div>
@@ -367,11 +324,35 @@ Introduction
                     </div>
                 </div>
                 
+                
+                
+                
+                <div class="column is-one-third">
+                    <div class="card" data-target="#project-3">
+                        
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <a >
+                                    
+                                    
+                                    
+                                    <img class="card-thumbnail" src="http://localhost:1313/projects/thehip/h1_hu51e9e9bb9572d7300519df92ad7ca72b_1928432_302x0_resize_box_3.png" alt ="h1.png">
+                                    
+                                    
+                                </a>
+                            </figure>
+                        </div>
+                        
+                        <div class="card-content has-text-centered top-pad">
+                            <h1><a >
+                                The Hip
+                            </a></h1>
+                            
+                        </div>
+                    </div>
+                </div>
+                
             </div>
-        </div>
-        
-        <div class="container has-text-centered top-pad">
-            <a href="http://localhost:1313/projects/">All Projects</a>
         </div>
         
     </div>
@@ -515,6 +496,35 @@ Introduction
             </section>
         </div>
         <button class="modal-close is-large" aria-label="close" data-target="#project-2"></button>
+    </div>
+    
+    
+    
+    <div class="modal" id="project-3">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            
+            <header class="modal-card-header bottom-pad">
+                <h1 class="modal-card-title has-text-centered">The Hip</h1>
+            </header>
+            
+                     
+            <section class="modal-card-body markdown">
+                
+                
+                
+                    
+                        
+                        
+                            <img src="http://localhost:1313/projects/thehip/h1_hu51e9e9bb9572d7300519df92ad7ca72b_1928432_640x0_resize_box_3.png" class="img-responsive" alt="h1.png">
+                        
+                    
+                
+                
+                
+            </section>
+        </div>
+        <button class="modal-close is-large" aria-label="close" data-target="#project-3"></button>
     </div>
     
     
@@ -698,7 +708,7 @@ Introduction
         
         <script>
             function update_localtime() {
-                const time = new Date().toLocaleTimeString('en-US', { timeZone: 'America\/Los_Angeles', timeStyle: 'short' });
+                const time = new Date().toLocaleTimeString('en-US', { timeZone: 'America\/Chicago', timeStyle: 'short' });
                 document.getElementById('time').innerHTML = time;
             }
             update_localtime();
