@@ -6,15 +6,8 @@
     <description>Recent content on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2024 10:07:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 29 Mar 2024 11:33:09 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Photography</title>
-      <link>http://localhost:1313/projects-copy/photography/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects-copy/photography/</guid>
-      <description>Sometimes I take pictures&#xD;This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
-    </item>
     <item>
       <title>Photography</title>
       <link>http://localhost:1313/projects/photography/</link>
@@ -23,11 +16,11 @@
       <description>Sometimes I take pictures&#xD;This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     <item>
-      <title>Design</title>
-      <link>http://localhost:1313/projects-copy/design/</link>
+      <title>Photography</title>
+      <link>http://localhost:1313/thewords/photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects-copy/design/</guid>
-      <description>This theme was designed by Victoria Drake. Go on, explore! 💪&#xA;If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
+      <guid>http://localhost:1313/thewords/photography/</guid>
+      <description>Sometimes I take pictures&#xD;This project is about the pictures I take. Sometimes, they are pictures of cats.</description>
     </item>
     <item>
       <title>Design</title>
@@ -37,11 +30,11 @@
       <description>This theme was designed by Victoria Drake. Go on, explore! 💪&#xA;If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
     </item>
     <item>
-      <title>Writing</title>
-      <link>http://localhost:1313/projects-copy/writing/</link>
+      <title>Design</title>
+      <link>http://localhost:1313/thewords/design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects-copy/writing/</guid>
-      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&#xA;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+      <guid>http://localhost:1313/thewords/design/</guid>
+      <description>This theme was designed by Victoria Drake. Go on, explore! 💪&#xA;If you want to use it for your website, check out the section at the bottom of the main page. 👍</description>
     </item>
     <item>
       <title>Writing</title>
@@ -51,10 +44,17 @@
       <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&#xA;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
     </item>
     <item>
-      <title>The Hip</title>
-      <link>http://localhost:1313/projects-copy/thehip/</link>
-      <pubDate>Fri, 29 Mar 2024 10:07:00 -0500</pubDate>
-      <guid>http://localhost:1313/projects-copy/thehip/</guid>
+      <title>Writing</title>
+      <link>http://localhost:1313/thewords/writing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thewords/writing/</guid>
+      <description>Aromatic aroma con panna, crema so coffee robust coffee barista, café au lait trifecta that strong blue mountain cortado aftertaste. Aroma extraction french press, skinny sweet, blue mountain cup roast barista, beans, extra cappuccino mug crema strong.&#xA;To go viennese cream to go, flavour, so mocha as, carajillo iced et a siphon froth. Aged, eu, cup, brewed aroma kopi-luwak, coffee, id viennese french press brewed grounds acerbic froth. Decaffeinated acerbic, spoon beans seasonal, french press café au lait mazagran roast chicory, pumpkin spice galão as fair trade, dark irish cup ristretto half and half whipped shop.</description>
+    </item>
+    <item>
+      <title>New</title>
+      <link>http://localhost:1313/projects/test/</link>
+      <pubDate>Fri, 29 Mar 2024 11:33:09 -0500</pubDate>
+      <guid>http://localhost:1313/projects/test/</guid>
       <description></description>
     </item>
     <item>
@@ -62,6 +62,13 @@
       <link>http://localhost:1313/projects/thehip/</link>
       <pubDate>Fri, 29 Mar 2024 10:07:00 -0500</pubDate>
       <guid>http://localhost:1313/projects/thehip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Hip</title>
+      <link>http://localhost:1313/thewords/thehip/</link>
+      <pubDate>Fri, 29 Mar 2024 10:07:00 -0500</pubDate>
+      <guid>http://localhost:1313/thewords/thehip/</guid>
       <description></description>
     </item>
     <item>
