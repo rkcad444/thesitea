@@ -54,6 +54,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2024-03-29T10:07:00-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -88,14 +89,8 @@
                 href="http://localhost:1313/blog/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/features/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+    <lastmod>2024-03-29T10:07:00-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -111,6 +106,15 @@
                 hreflang="en-us"
                 href="http://localhost:1313/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/projects/thehip/</loc>
+    <lastmod>2024-03-29T10:07:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/features/</loc>
+    <lastmod>2022-02-21T16:04:06-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/series/quickstart/</loc>
     <lastmod>2022-02-21T16:04:06-05:00</lastmod>
